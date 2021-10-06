@@ -17,24 +17,47 @@
   <title>Frontend Mentor | Ping coming soon page</title>
 </head>
 <body>
+  <header class="header">
+    <img src="./images/logo.svg" alt="" class="header__logo">
+    <h1 class="header__title">We are launching soon!</h1>
+    <h2 class="header__subtitle">Subscribe and get notified</h2>
+  </header>
+  <main class="content">
+    <div class="subscription">
+      <form action="submit" class="subscription__form">
+        <input type="text" class="subscription__input" placeholder="Your email address..." />
+        <button type="submit" class="subscritpion__btn">Notify Me</button>
+      </form>
+    </div>
 
-  We are launching soon!
+    <div class="image">
+      <img class="image__img" src="./images/illustration-dashboard.png" alt="illustration-dashboard">
+    </div>
 
-  Subscribe and get notified
+    <div class="socials">
+      <div class="socials__icon">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+      </div>
+      <div class="socials__icon">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+      <div class="socials__icon">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
 
-  Notify Me
+    <div class="copyright">
+      <p class="copyright__txt">&copy; Copyright Ping. All rights reserved.</p>
+    </div>
+  </main>
 
-  <a href="#"><i class="fab fa-facebook-f"></i></a>
-  <a href="#"><i class="fab fa-twitter"></i></a>
-  <a href="#"><i class="fab fa-instagram"></i></a>
-
-  &copy; Copyright Ping. All rights reserved.
-
-  <footer>
+  <footer class="footer">
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">CodingDuck</a>.
     </p>
   </footer>
+
+  <script src="./main.js"></script>
 </body>
 </html>
