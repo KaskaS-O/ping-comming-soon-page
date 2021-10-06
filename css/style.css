@@ -9,6 +9,10 @@ body {
   font-family: 'Libre Franklin', sans-serif;
 }
 
+.subscription__msg {
+  display: none;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
