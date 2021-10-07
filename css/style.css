@@ -301,10 +301,12 @@ body {
   transition: 0.2s;
 }
 
-.socials__icon a :hover, .socials__icon i :hover {
-  background-color: #4f7df3;
-  color: white;
-  cursor: pointer;
+@media (min-width: 1024px) {
+  .socials__icon a :hover, .socials__icon i :hover {
+    background-color: #4f7df3;
+    color: white;
+    cursor: pointer;
+  }
 }
 
 .copyright {

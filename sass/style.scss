@@ -202,11 +202,13 @@
         text-decoration: none;
         transition: 0.2s;
 
+        @media (min-width:1024px) {
             :hover {
                 background-color: $blue;
                 color: white;
                 cursor: pointer;
             }
+        }
         }
     }
 }
