@@ -13,12 +13,13 @@ form.addEventListener('submit', e => {
         error = document.createElement('p');
         formMsg.style = 'display:block';
         formMsg.appendChild(error);
-        error.classList.add('subscription__error');
         error.innerText = 'Please provide a valid email address';
+        input.classList.add('error');
         
     } else {
         input.value = '';
         formMsg.style ='display:none';
+        input.classList.remove('error');
     }
 })
 

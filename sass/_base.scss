@@ -1,4 +1,14 @@
 body {
     font-family: 'Libre Franklin', sans-serif;
     font-size: 10px;
+
+    @media (min-width: 1024px) {
+     font-size: 15px;           
+    }
+
+    @media (min-width: 1400px) {
+     font-size: 16px;   
+     max-width: 1000px;
+     margin: 0 auto;        
+    }
 }
